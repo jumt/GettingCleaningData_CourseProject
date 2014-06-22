@@ -49,6 +49,3 @@ write.table(tidy, file = "tidy.txt", quote = FALSE, row.names = FALSE,
             sep = "\t")
 
 
-write.table(paste("* ", names(tidy), sep = ""), file = "CodeBook.md", 
-            quote = FALSE, row.names = FALSE, col.names = FALSE, sep = "\t")
-
